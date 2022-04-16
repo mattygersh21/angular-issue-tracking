@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Issue } from './issues';
-import { issues } from 'src/assets/mock-issues';
+import { Issue } from './issue';
+import { issues } from '../assets/mock-issues';
 
 @Injectable({
   providedIn: 'root'
